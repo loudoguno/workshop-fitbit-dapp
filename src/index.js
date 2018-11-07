@@ -5,7 +5,7 @@
 const CLIENT_ID = '22D5DZ';
 // @NOTE only works if `https://dev.fitbit.com/apps/details/${CLIENT_ID}` has set Callback URL to `location.href` too
 const REDIRECT_URL = location.href.split('#')[0].split('?')[0]
-const DEFAULT_ADDRESS = "0xa35f44a199015081d86da841ba8e14ece52e840c";
+const DEFAULT_ADDRESS = "0xffc790afc4f45ad303ffec750f9b535b4c2b8c19";
 const contractAddress = localStorage.contract || DEFAULT_ADDRESS;
 const CONTRACT_GAS = 800000;
 const CONTRACT_PRICE = 40000000000;
